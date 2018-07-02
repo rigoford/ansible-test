@@ -1,0 +1,5 @@
+---
+- hosts: *
+  tasks:
+  - name: ls -l
+    shell: ls -l
